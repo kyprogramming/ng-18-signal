@@ -1,0 +1,6 @@
+<div>
+    <div class="mb-3"><label for="name">Name:</label><br><input id="name" [(ngModel)]="user.name" class="form-control mb-3" placeholder="Enter your name"></div>
+    <div class="mb-3"><label for="company">Company:</label><br><input id="company" [(ngModel)]="user.company" class="form-control mb-3" placeholder="Enter your company"></div>
+    <div class="mb-3"><label for="adress">Address:</label><br><input id="address" [(ngModel)]="user.address" class="form-control mb-3" placeholder="Enter your address"></div>
+    <button (click)="updateUser()"> Update User</button>
+</div>
